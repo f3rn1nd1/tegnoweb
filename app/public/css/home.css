@@ -1,0 +1,52 @@
+.velocimetro {
+    color: #6c757d; 
+
+}
+.border-left-primary {
+    border-left: 5px solid #007bff; 
+}
+.border-left-success {
+    border-left: 5px solid #13c330; 
+}
+.border-left-info {
+    border-left: 5px solid #06a3b8; 
+}
+.border-left-warning {
+    border-left: 5px solid #FA9C20; 
+}
+
+.bg-holder{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.div-maximo {
+    max-width:none;
+    
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.cb1 {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.33) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.893);
+    border-radius: 10px; 
+    
+}
+.contenedor {
+    width: 100%; /* O cualquier ancho específico */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15%; /* Ajusta el padding para controlar el espacio interior */
+    /* Añadir puntos de interrupción para responsividad si es necesario */
+}
